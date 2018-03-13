@@ -1,0 +1,194 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# ovanet_IR-LineSensor
+#
+DEF ovanet_IR-LineSensor M 0 40 Y Y 1 F N
+F0 "M" 0 325 50 H V C CNN
+F1 "ovanet_IR-LineSensor" 0 -325 50 H V C CNN
+F2 "JST_XH_B05B-XH-A_05x2.50mm_Straight" 0 -425 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X05
+ Pin_Header_Angled_1X05
+ Socket_Strip_Straight_1X05
+ Socket_Strip_Angled_1X05
+$ENDFPLIST
+DRAW
+T 0 475 0 100 0 0 0 CAN Italic 1 C C
+S -50 250 700 -250 0 1 0 f
+P 2 0 1 0 250 200 250 -200 N
+X +5V 1 -200 200 150 R 50 50 1 1 P
+X dIRS 2 -200 100 150 R 50 50 1 1 P
+X CANH 3 -200 0 150 R 50 50 1 1 P
+X CANL 4 -200 -100 150 R 50 50 1 1 P
+X GND 5 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ovanet_IrDA-prox
+#
+DEF ovanet_IrDA-prox M 0 40 Y Y 1 F N
+F0 "M" 0 575 50 H V C CNN
+F1 "ovanet_IrDA-prox" 0 -575 50 H V C CNN
+F2 "JST_XH_B10B-XH-A_10x2.50mm_Straight" 0 -675 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X10
+ Pin_Header_Angled_1X10
+ Socket_Strip_Straight_1X10
+ Socket_Strip_Angled_1X10
+$ENDFPLIST
+DRAW
+S -50 500 700 -500 0 1 0 f
+P 2 0 1 0 250 450 250 -450 N
+X LedS 1 -200 450 150 R 50 50 1 1 P
+X LedA 2 -200 350 150 R 50 50 1 1 P
+X +5V 3 -200 250 150 R 50 50 1 1 P
+X Trig 4 -200 150 150 R 50 50 1 1 P
+X Echo 5 -200 50 150 R 50 50 1 1 P
+X Txd 6 -200 -50 150 R 50 50 1 1 P
+X Rxd 7 -200 -150 150 R 50 50 1 1 P
+X SC 8 -200 -250 150 R 50 50 1 1 P
+X SD 9 -200 -350 150 R 50 50 1 1 P
+X GND 10 -200 -450 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ovanet__lamp-frontL
+#
+DEF ovanet__lamp-frontL M 0 40 Y Y 1 F N
+F0 "M" 0 375 50 H V C CNN
+F1 "ovanet__lamp-frontL" 0 -375 50 H V C CNN
+F2 "JST_XH_B06B-XH-A_06x2.50mm_Straight" 0 -475 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 300 700 -300 0 1 0 f
+P 2 0 1 0 250 250 250 -250 N
+X +5V 1 -200 250 150 R 50 50 1 1 P
+X FF 2 -200 150 150 R 50 50 1 1 P
+X Low 3 -200 50 150 R 50 50 1 1 P
+X High 4 -200 -50 150 R 50 50 1 1 P
+X TS 5 -200 -150 150 R 50 50 1 1 P
+X GND 6 -200 -250 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ovanet__lamp-frontR
+#
+DEF ovanet__lamp-frontR M 0 40 Y Y 1 F N
+F0 "M" 0 375 50 H V C CNN
+F1 "ovanet__lamp-frontR" 0 -375 50 H V C CNN
+F2 "JST_XH_B06B-XH-A_06x2.50mm_Straight" 0 -475 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 300 700 -300 0 1 0 f
+P 2 0 1 0 250 250 250 -250 N
+X +5V 1 -200 250 150 R 50 50 1 1 P
+X FF 2 -200 150 150 R 50 50 1 1 P
+X Low 3 -200 50 150 R 50 50 1 1 P
+X High 4 -200 -50 150 R 50 50 1 1 P
+X TS 5 -200 -150 150 R 50 50 1 1 P
+X GND 6 -200 -250 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ovanet__lamp-rearL
+#
+DEF ovanet__lamp-rearL M 0 40 Y Y 1 F N
+F0 "M" 0 375 50 H V C CNN
+F1 "ovanet__lamp-rearL" 0 -375 50 H V C CNN
+F2 "JST_XH_B06B-XH-A_06x2.50mm_Straight" 0 -475 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 300 700 -300 0 1 0 f
+P 2 0 1 0 250 250 250 -250 N
+X +5V 1 -200 250 150 R 50 50 1 1 P
+X RF 2 -200 150 150 R 50 50 1 1 P
+X RV 3 -200 50 150 R 50 50 1 1 P
+X TS 4 -200 -50 150 R 50 50 1 1 P
+X S 5 -200 -150 150 R 50 50 1 1 P
+X GND 6 -200 -250 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ovanet__lamp-rearR
+#
+DEF ovanet__lamp-rearR M 0 40 Y Y 1 F N
+F0 "M" 0 375 50 H V C CNN
+F1 "ovanet__lamp-rearR" 0 -375 50 H V C CNN
+F2 "JST_XH_B06B-XH-A_06x2.50mm_Straight" 0 -475 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ Pin_Header_Straight_1X06
+ Pin_Header_Angled_1X06
+ Socket_Strip_Straight_1X06
+ Socket_Strip_Angled_1X06
+$ENDFPLIST
+DRAW
+S -50 300 700 -300 0 1 0 f
+P 2 0 1 0 250 250 250 -250 N
+X +5V 1 -200 250 150 R 50 50 1 1 P
+X RF 2 -200 150 150 R 50 50 1 1 P
+X RV 3 -200 50 150 R 50 50 1 1 P
+X TS 4 -200 -50 150 R 50 50 1 1 P
+X S 5 -200 -150 150 R 50 50 1 1 P
+X GND 6 -200 -250 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ovanet_driver_comm
+#
+DEF ovanet_driver_comm M 0 40 Y Y 1 F N
+F0 "M" 0 275 50 H V C CNN
+F1 "ovanet_driver_comm" 0 -300 50 H V C CNN
+F2 "JST_XH_B04B-XH-A_04x2.50mm_Straight" 0 -400 50 H I C CNN
+F3 "" 0 275 50 H V C CNN
+DRAW
+T 0 475 0 100 0 0 0 CAN Italic 1 C C
+P 2 0 0 0 250 150 250 -150 N
+S -50 200 700 -200 1 1 0 f
+X dIRS 1 -200 150 150 R 50 50 1 1 P
+X CANH 2 -200 50 150 R 50 50 1 1 P
+X CANL 3 -200 -50 150 R 50 50 1 1 P
+X GND 4 -200 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ovanet_driver_power
+#
+DEF ovanet_driver_power M 0 40 Y Y 1 F N
+F0 "M" 0 275 50 H V C CNN
+F1 "ovanet_driver_power" 0 -275 50 H V C CNB
+F2 "XT60" 0 -375 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+X + 1 -200 100 150 R 50 50 0 1 P
+X - 2 -200 -100 150 R 50 50 0 1 P
+C 225 -75 50 1 1 0 F
+C 225 75 50 1 1 0 F
+S -50 200 100 -200 1 1 0 f
+S 100 200 350 -200 1 1 0 f
+P 7 1 1 0 150 150 300 150 300 -100 250 -150 200 -150 150 -100 150 150 N
+ENDDRAW
+ENDDEF
+#
+#End Library
