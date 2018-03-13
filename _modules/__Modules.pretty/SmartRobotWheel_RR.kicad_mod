@@ -1,0 +1,14 @@
+(module SmartRobotWheel_RR (layer F.Cu) (tedit 5A8F34C1)
+  (fp_text reference REF** (at 0 -1.5) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.508) (thickness 0.1016)))
+  )
+  (fp_text value SmartRobotWheel_RR (at 0 1.5) (layer F.Fab)
+    (effects (font (size 0.762 0.508) (thickness 0.1016)))
+  )
+  (fp_circle (center 0 0) (end 0.5 0) (layer F.SilkS) (width 0.15))
+  (model ${KICODEASHARED}/_modules/__Modules.pretty/SmartRobotWheel.step
+    (offset (xyz 36.12895945739746 -94.58959857940674 -27.30499958992004))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 0 0))
+  )
+)

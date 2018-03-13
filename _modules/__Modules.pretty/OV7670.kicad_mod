@@ -1,0 +1,14 @@
+(module OV7670 (layer F.Cu) (tedit 5A8F33B7)
+  (fp_text reference REF** (at 0 -1.905) (layer F.SilkS) hide
+    (effects (font (size 0.762 0.508) (thickness 0.1016)))
+  )
+  (fp_text value OV7670 (at 0 1.905) (layer F.Fab) hide
+    (effects (font (size 0.762 0.508) (thickness 0.1016)))
+  )
+  (pad 1 smd circle (at 0 0) (size 1.524 1.524) (layers F.Cu F.Paste F.Mask))
+  (model ${KICODEASHARED}/_modules/__Modules.pretty/OV7670.wrl
+    (offset (xyz 0 4.444999933242798 0))
+    (scale (xyz 0.3 0.4 0.3))
+    (rotate (xyz 180 0 0))
+  )
+)
